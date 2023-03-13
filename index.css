@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.header-conteudo, .main-conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-conteudo a{
+    margin: 20px;
+}
+h1, .header-conteudo a{
+    text-transform:uppercase;
+}
+.capixaba{
+    color: blueviolet;
+}
+.header-conteudo a:hover{
+    color: rgb(224, 224, 224);
+}
+a{
+    text-decoration: none;
+}
+.imagem-convento{
+    width: 80%;
+    border-radius: 45px;
+}
+.imagem-convento:hover{
+    width: 85%;
+}
+li{
+    list-style-type: none;    
+}
