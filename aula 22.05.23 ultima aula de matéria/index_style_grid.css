@@ -1,0 +1,100 @@
+/*
+Folha de Estilo
+*/
+:root{
+  --cor_laranja: #D77A61;
+  --cor_verde: #C5EBC3;
+  --cor_amarela: #FFE74C;
+  --cor_vermelha: #FF5964;
+  --cor_branca: #FFFFFF;
+  --cor_marinho: #38618C;
+  --cor_anil: #35A7FF;
+  --cor_violeta: #A790A5;
+  --cor_roxo: #54414E;
+}
+
+body {
+  background-color: White;
+}
+
+h1 {
+  font-family: Lobster;
+  font-size: 50px;
+  color: #F8214B;
+}
+
+footer{
+  font-size: 12px;
+}
+
+.header-conteudo {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.main-conteudo{
+    width: 60%;
+    margin: auto;
+    text-align: center
+}
+
+
+.color-container{
+  display: grid;
+  width: 100%;
+
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 2fr 3fr 1fr;
+
+  grid-gap: 15px;
+}
+
+.color_1{
+  background-color: var(--cor_laranja);
+}
+.color_2{
+  background-color: var(--cor_verde);
+  }
+.color_3{
+  background-color: var(--cor_amarela);
+}
+.color_4{
+  background-color: var(--cor_vermelha);
+}
+.color_5{
+  background-color: var(--cor_branca);
+  }
+.color_6{
+  background-color: var(--cor_marinho);
+}
+.color_7{
+  background-color: var(--cor_anil);
+}
+.color_8{
+  background-color: var(--cor_violeta);
+}
+.color_9{
+  background-color: var(--cor_roxo);
+}
+
+[class*="color_"]{
+  font-size: 20px;
+  border: 2px solid Black;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+/**/

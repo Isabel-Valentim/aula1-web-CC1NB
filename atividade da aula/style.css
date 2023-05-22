@@ -1,0 +1,137 @@
+/*
+Folha de Estilo site
+Nimbus2000
+*/
+:root{
+  --verde_escuro: #0E5E6F;
+  --verde_claro: #3A8891;
+  --bege: #FFEFD6;
+  --dark_background: #313944;
+  --light_font: #BBC8D8;
+}
+
+body {
+  background-color: var(--dark_background);
+  /* background-color: var(--verde_claro); */
+}
+
+h1{
+  font-family: 'Cormorant Infant';
+  font-size: 50px;
+  color: var(--bege);
+  text-align: center;
+}
+
+h2{
+  font-family: 'Cormorant Infant';
+  font-size: 35px;
+  color: var(--bege);
+  text-align: center;
+}
+
+
+p{
+  color: var(--light_font);
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.header-conteudo {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+.main-conteiner{
+    width: 75%;
+    margin: auto;
+    align-content: center;
+}
+
+/* BOTAO BACK TO TOP */
+#back-to-top{
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--dark_background);
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  /* box-shadow: 0 0 2em 0 rgba(0, 0, 0, 0.3);
+  transition: all .3s ease-in-out; */
+  display: inline-block;
+  text-decoration: none;
+  font-size: .75em;
+  opacity: 0;
+}
+
+#back-to-top:hover{
+  background-color: #fff;
+  padding: 1.2em 1.2em;
+}
+
+#back-to-top.visible{
+  opacity: 1;
+}
+
+
+/* BOOK COVERS  */
+#book-cover-container{
+  display: block;
+  width: 75%;
+  height: 60;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-cover{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.blank-div{
+  height: 300px;
+  width: 75%;
+}
+
+
+#book-buttoms{
+  text-align: center;
+}
+
+#book-buttoms a{
+  position: relative;
+  background-color: #FFFFFFEF;
+  color: var(--dark_background);
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+  font-size: .75em;
+}
+
+#book-buttoms a:hover{
+  opacity: 0.5;
+}
+
+/**/
